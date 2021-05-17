@@ -78,7 +78,7 @@ function draw() {
   //trex.debug = true;
   background(bg);
   text("Score: "+ score, camera.position.x+200,50);
-  text("check console for trex's x position!", camera.position.x-200,50);
+  //text("check console for trex's x position!", camera.position.x-200,50);
   //console.log("camera.position.x");
   camera.position.x = trex.x + 250;          
   console.log("position x of trex is "+trex.x);
